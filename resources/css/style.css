@@ -1,6 +1,10 @@
-*,
-a {
+/***************GENERAL***************/
+
+* {
   box-sizing: border-box;
+}
+
+body {
   font-family: "Roboto", sans-serif;
 }
 
@@ -67,6 +71,7 @@ button {
   border: 1px solid blue;
   border-radius: 5px;
   color: #05a8aa;
+  font-family: inherit;
   font-size: 1.125rem;
   font-weight: 900;
   margin: 3.125rem 0;
@@ -75,15 +80,15 @@ button {
 
 button:hover {
   background: #05a8aa;
-  border: 1px solid #05a8aa;
+  border: 1px solid transparent;
   color: white;
 }
+
+/***************INFO CARDS***************/
 
 section {
   text-align: center;
 }
-
-/***************INFO CARDS***************/
 
 div {
   background: #05a8aa;
